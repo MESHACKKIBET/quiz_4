@@ -1,0 +1,24 @@
+span img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: 0px;
+}
+body{
+    background-image: url(images/background.jpg) ;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.containe{
+    background-color: rgba(0,0,0,0.7 );
+    color: rgb(255, 255, 255);
+    text-align: center;
+    border-radius: 20px;
+    padding:0px 20px 20px;
+   
+}
